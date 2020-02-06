@@ -1,0 +1,57 @@
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0", 
+    "X-Amzn-Trace-Id": "Root=1-5e3c88a3-a76ecd532361cc9c05d0cb6b"
+  }, 
+  "json": null, 
+  "method": "GET", 
+  "origin": "177.92.77.154", 
+  "url": "https://httpbin.org/anything"
+}
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "lastname": "damasceno"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "18", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0", 
+    "X-Amzn-Trace-Id": "Root=1-5e3c8c40-7c80463b65665a18bb52b891"
+  }, 
+  "json": null, 
+  "method": "POST", 
+  "origin": "177.92.77.154", 
+  "url": "https://httpbin.org/anything"
+}
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "firstname": "Leonardo", 
+    "lastname": "Damasceno"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "37", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0", 
+    "X-Amzn-Trace-Id": "Root=1-5e3c8e23-4177e1ca8b7c17a93334f5c2"
+  }, 
+  "json": null, 
+  "method": "PUT", 
+  "origin": "177.92.77.154", 
+  "url": "https://httpbin.org/anything"
+}
