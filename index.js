@@ -87,26 +87,27 @@ let c;
 
 
 
-let peca;
+// let peca;
+
+// let movimento = (peca) =>{
+//     if (peca === "peao" || peca === "PEAO"){
+//         console.log("Peao -> straight")
+//     }else if (peca === "cavalo" || peca === "CAVALO"){
+//         console.log("Cavalo -> L")
+//     }else if (peca === "torre" || peca == "TORRE"){
+//         console.log("Torre -> Horizontal/Vertical")
+//     }else if (peca === "bispo" || peca ==="BISPO"){
+//         console.log("Bispo -> diagonals")
+//     }else if (peca === "rei" || peca === "REI"){
+//         console.log("Rei -> All directions")
+//     }else if (peca === "rainha" || peca === "RAINHA"){
+//         console.log("Rainha -> All directions")
+//     }else {
+//         console.log("Peca invalida, não existe")
+//     }
+// }
 
 
-let movimento = (peca) =>{
-    if (peca === "peao" || peca === "PEAO"){
-        console.log("Anda para frente")
-    }else if (peca === "cavalo" || peca === "CAVALO"){
-        console.log("Anda casas em L")
-    }else if (peca === "torre" || peca == "TORRE"){
-        console.log("Anda na horizontal e na vertical")
-    }else if (peca === "bispo" || peca ==="BISPO"){
-        console.log("Anda nas diagonais")
-    }else if (peca === "rei" || peca === "REI"){
-        console.log("Move em todas as direcoes")
-    }else if (peca === "rainha" || peca === "RAINHA"){
-        console.log("Se move em todas as direçoes")
-    }else {
-        console.log("Peca invalida, não existe")
-    }
-}
 
 
 
