@@ -62,12 +62,27 @@ let c;
 
 // exercicio numero 4
 
-let positivo = (a) => {
-    if (a>0){
-        console.log("Numero positovo")
-    }else if (a<0){
-        console.log("Numero negativo")
-    }else {
-        console.log("Numero e igual a 0")
+// let positivo = (a) => {
+//     if (a>0){
+//         console.log("Numero positovo")
+//     }else if (a<0){
+//         console.log("Numero negativo")
+//     }else {
+//         console.log("Numero e igual a 0")
+//     }
+// }
+
+// exercicio 5 - Faça um programa que define três variáveis com 
+//os valores dos três ângulos internos de um triângulo. 
+//Retorne true se os ângulos representarem os ângulos de um 
+//triângulo e false caso contrário.
+
+let angulo = (a,b,c) => {
+    if((a+b+c) === 180){
+        console.log("E um triangulo")
+    }else{
+        console.log("Nao e um triangulo")
     }
 }
+
+
