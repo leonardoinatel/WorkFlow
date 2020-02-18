@@ -35,12 +35,26 @@ let b;
 //exercicio numero 2
 
 
-let maior = (a,b) => {
-    if(a>b){
-        console.log("Esse e o maior numero: " + a)
-    }else{
-        console.log("Esse e o maior numero: " + b)
-    }
-}
+// let maior = (a,b) => {
+//     if(a>b){
+//         console.log("Esse e o maior numero: " + a)
+//     }else{
+//         console.log("Esse e o maior numero: " + b)
+//     }
+// }
 
-maior (30,1)
+// maior (30,1)
+
+// exercicio numero 3
+
+// let maior = (a,b,c) => {
+//         if(a>b & a>c){
+//             console.log("Esse e o maior numero: " + a)
+//         }else if (b>a & b>c){
+//             console.log("Esse e o maior numero: " + b)
+//         }else{
+//             console.log("Esse numero é maior: " + c)
+//         }
+// }
+    
+// maior (30,1,40)
