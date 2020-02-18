@@ -28,3 +28,26 @@
 //         console.log(info[chaves], " e ", info2[chaves])
 //     }
 // }
+
+//1 Crie uma função que recebe uma string e retorna true se é um palíndromo ou false se não for.
+//     Exemplo de palíndromo: arara.
+//     verificaPalindrome("arara");
+//     Retorno esperado: true
+//     verificaPalindrome("desenvolvimento");
+//     Retorno esperado: false
+
+let palindrome = (pali) =>{
+    let aux;
+    for(let character in pali){
+        for (let i = (pali.length)-1 ; i >= 0; i--){
+            if (pali[character] === pali[i]){
+                aux = true
+            }
+        }
+    }
+    if(aux){
+        return true
+    }
+
+}
+console.log(palindrome("peixe"))
