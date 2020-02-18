@@ -1,5 +1,6 @@
 let a;
 let b;
+let c;
 
 // let soma = (a,b) => {
 //     console.log(a+b)
@@ -58,3 +59,15 @@ let b;
 // }
     
 // maior (30,1,40)
+
+// exercicio numero 4
+
+let positivo = (a) => {
+    if (a>0){
+        console.log("Numero positovo")
+    }else if (a<0){
+        console.log("Numero negativo")
+    }else {
+        console.log("Numero e igual a 0")
+    }
+}
