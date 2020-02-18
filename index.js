@@ -77,12 +77,47 @@ let c;
 //Retorne true se os ângulos representarem os ângulos de um 
 //triângulo e false caso contrário.
 
-let angulo = (a,b,c) => {
-    if((a+b+c) === 180){
-        console.log("E um triangulo")
-    }else{
-        console.log("Nao e um triangulo")
+// let angulo = (a,b,c) => {
+//     if((a+b+c) === 180){
+//         console.log("E um triangulo")
+//     }else{
+//         console.log("Nao e um triangulo")
+//     }
+// }
+
+
+
+let peca;
+
+
+let movimento = (peca) =>{
+    if (peca === "peao" || peca === "PEAO"){
+        console.log("Anda para frente")
+    }else if (peca === "cavalo" || peca === "CAVALO"){
+        console.log("Anda casas em L")
+    }else if (peca === "torre" || peca == "TORRE"){
+        console.log("Anda na horizontal e na vertical")
+    }else if (peca === "bispo" || peca ==="BISPO"){
+        console.log("Anda nas diagonais")
+    }else if (peca === "rei" || peca === "REI"){
+        console.log("Move em todas as direcoes")
+    }else if (peca === "rainha" || peca === "RAINHA"){
+        console.log("Se move em todas as direçoes")
+    }else {
+        console.log("Peca invalida, não existe")
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
