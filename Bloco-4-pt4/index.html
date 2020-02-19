@@ -1,0 +1,94 @@
+<!-- <!DOCTYPE html>
+<html>
+    <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph">Segundo parágrafo!</p>
+
+    <script>
+        var paragraph = document.getElementById("paragraph");
+        paragraph.style.color = "red";
+        document.getElementById("page-title").innerHTML = "Interestelar";
+        document.getElementById("second-paragraph").innerHTML = "Mr. Nobody";
+        var sub = document.getElementById("subtitle");
+        sub.innerHTML = "Second Best"
+    </script>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<!-- creating the squares and columns divs -->
+<div id="stack">
+	<div class="column_left"> 
+		<div>
+        	<div>	
+			</div>
+    	</div>
+    	<div>
+        	<div></div>
+    	</div>
+ 	</div>
+ 	<div class="column_right">
+    	<div>
+        	<div>	
+			</div>
+    	</div>
+    	<div>
+        	<div>
+			</div>
+    	</div>
+  	</div>
+</div>
+<style>
+
+
+
+#stack{
+	height:20rem;
+	width:20rem;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-items:center;
+	border: solid black 4px;
+}
+
+.column_left, .column_right{
+	
+    height:18rem;
+	width:8rem;
+    margin:auto;
+	display:flex;
+	flex-direction:column;
+    justify-content:space-evenly;
+    border: solid black 4px;
+    }
+.column_left>div, .column_right>div{
+	height:5rem;
+	width:5rem ;
+	display:flex;
+	align-items:center;
+    justify-content:center;
+    margin:auto;
+    border: solid black 4px;
+}  
+
+div>div>div>div{
+    height:2.5rem;
+	width:2.5rem; 
+    border: solid black 4px;
+}
+
+</style>
+<script>
+    var stack=document.getElementById("stack");
+    stack.style.backgroundColor="red";
+    var left=document.getElementsByClassName("column_left");
+    left.style.backgroundColor="blue"
+</script>
+
+</body>
+</html>
