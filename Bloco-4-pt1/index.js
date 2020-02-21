@@ -1,6 +1,6 @@
 // 8- Escreva um programa que define três números em variáveis no seu começo e retorna true se uma das três for par. Caso contrário, ele retorna false.
 
-let vairavelVar = (a,b,c) => {
+let vairavelPar = (a,b,c) => {
     if (a%2 == 0 || b%2 == 0 || c%3 == 0){
         return true
     }else{
@@ -8,8 +8,18 @@ let vairavelVar = (a,b,c) => {
     }
 }
 
+console.log(vairavelVar(15,20,23))
+// =====================================================================================================================================================================
 // Bonus: use somente um if.
 // 9- Escreva um programa que define três números em variáveis no seu começo e retorna true se uma das três for ímpar. Caso contrário, ele retorna false.
+let vairavelInpar = (a,b,c) => {
+    if (a%2 == 1 || b%2 == 1 || c%3 == 1){
+        return true
+    }else{
+        return false
+    }
+}
+
 
 // Bonus: use somente um if.
 // 10- Escreva um programa que, dado o custo de um produto e seu valor de venda, calcule quanto de lucro (em números absolutos) a empresa terá ao vender mil desses produtos.
