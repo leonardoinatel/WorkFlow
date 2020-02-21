@@ -1,10 +1,12 @@
 let squadAst = (n) => {
-    let asterix = [];
+    let asterix="";
     for(let i=0 ; i<n ; i++){
-        for(let j = 0 ; j < 5; j++){
-            return asterix[i][j] = "*"
+        asterix='';
+        for(let j = 0 ; j < n; j++){
+            asterix = asterix + "*"
         }
+        console.log(asterix)
     }
 }
 
-console.log(squadAst(5))
+squadAst(5)
