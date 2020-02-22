@@ -37,16 +37,17 @@
 //     Retorno esperado: false
 
 let palindrome = (pali) =>{
-    let aux="";
+    let aux = ""
+    let max = pali.length - 1
     for(let i = 0; i < pali.length; i++){
-        for(let j = pali.length; j > 0; j--){
-            if(pali[i]===pali[j]){
-                aux = aux + pali[j]
-            }
+        if(pali[i]===pali[max-i]){       
+            aux += pali[i]
+        }else{
+            return false
         }
-    if(aux){
+    }
+    if(aux===pali){
         return true
     }
-
 }
-console.log(palindrome("arar"))
+console.log(palindrome("personagem"))
