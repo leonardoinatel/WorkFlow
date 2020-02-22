@@ -56,26 +56,34 @@
 // console.log(palindrome("personagem"))
 
 
-//Exercicio numero 2
+//Exercicio numero 2 se inverter a logica resolve o 3
 
+// let array = (carreto) => {
+//     let aux;
+//     let maior = carreto[0]
+//     for (let i = 1; i < carreto.length; i++){
+//         if (carreto[i] > maior){
+//             maior = carreto[i]
+//             aux = i
+//         }else{
+//             aux = 0;
+//         }            
+//     }
+//     return aux
+// }
 
-let array = (carreto) => {
+// console.log(array([35,16,3,6,7,10,11,12,13,15,17,20]))
+
+let maiorNome = (nome) => {
     let aux;
-    let maior = carreto[0]
-    for (let i = 1; i < carreto.length; i++){
-        if (carreto[i] > maior){
-            maior = carreto[i]
-            aux = i
-        }else{
-            aux = 0;
-        }            
+    for (let item in nome){
+        if (nome[item].length > nome[item.length]){
+            
+        }
     }
-    return aux
 }
 
-console.log(array([35,16,3,6,7,10,11,12,13,15,17,20]))
-
-
+maiorNome(["leonardo","Pedro","Paulo","Joao","Alberto"])
 
 
 
