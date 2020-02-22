@@ -36,18 +36,50 @@
 //     verificaPalindrome("desenvolvimento");
 //     Retorno esperado: false
 
-let palindrome = (pali) =>{
-    let aux = ""
-    let max = pali.length - 1
-    for(let i = 0; i < pali.length; i++){
-        if(pali[i]===pali[max-i]){       
-            aux += pali[i]
+
+
+// Exercicio numero 1
+// let palindrome = (pali) =>{
+//     let aux = ""
+//     let max = pali.length - 1
+//     for(let i = 0; i < pali.length; i++){
+//         if(pali[i]===pali[max-i]){       
+//             aux += pali[i]
+//         }else{
+//             return false
+//         }
+//     }
+//     if(aux===pali){
+//         return true
+//     }
+// }
+// console.log(palindrome("personagem"))
+
+
+//Exercicio numero 2
+
+
+let array = (carreto) => {
+    let aux;
+    let maior = carreto[0]
+    for (let i = 1; i < carreto.length; i++){
+        if (carreto[i] > maior){
+            maior = carreto[i]
+            aux = i
         }else{
-            return false
-        }
+            aux = 0;
+        }            
     }
-    if(aux===pali){
-        return true
-    }
+    return aux
 }
-console.log(palindrome("personagem"))
+
+console.log(array([35,16,3,6,7,10,11,12,13,15,17,20]))
+
+
+
+
+
+
+
+
+
