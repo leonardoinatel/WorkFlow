@@ -37,17 +37,16 @@
 //     Retorno esperado: false
 
 let palindrome = (pali) =>{
-    let aux;
-    for(let character in pali){
-        for (let i = (pali.length)-1 ; i >= 0; i--){
-            if (pali[character] === pali[i]){
-                aux = true
+    let aux="";
+    for(let i = 0; i < pali.length; i++){
+        for(let j = pali.length; j > 0; j--){
+            if(pali[i]===pali[j]){
+                aux = aux + pali[j]
             }
         }
-    }
     if(aux){
         return true
     }
 
 }
-console.log(palindrome("peixe"))
+console.log(palindrome("arar"))

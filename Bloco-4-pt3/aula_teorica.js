@@ -21,3 +21,10 @@
 
 //for-of
 
+//funcoes - Uma responsabilidade por funcao
+
+let variavel = () =>{
+    return 1
+}
+
+console.log(variavel())
