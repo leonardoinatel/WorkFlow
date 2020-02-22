@@ -23,8 +23,8 @@
 
 //funcoes - Uma responsabilidade por funcao
 
-let variavel = () =>{
-    return 1
-}
+// let variavel = () =>{
+//     return 1
+// }
 
-console.log(variavel())
+// console.log(variavel())

@@ -78,12 +78,12 @@ let maiorNome = (nome) => {
     let aux;
     for (let item in nome){
         if (nome[item].length > nome[item.length]){
-            
+
         }
     }
 }
 
-maiorNome(["leonardo","Pedro","Paulo","Joao","Alberto"])
+maiorNome(["Leonardo","Pedro","Paulo","Joao","Alberto"])
 
 
 
