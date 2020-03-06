@@ -14,14 +14,15 @@ let estados = ["Acre","Alagoas","Amapá","Amazonas","Bahia","Ceará","Distrito F
                "Roraima","Santa Catarina","São Paulo","Sergipe","Tocantins"];
 
 let comboEstados = document.getElementsByTagName('select');
-let options = document.createElement("option");
+
 
 function selectCombo() {
     for(let i = 0; i < estados.length; i++){
+        let options = document.createElement("option");
         options.value = i;
-        options.text = estados[i];    
-    };
-    console.log(comboEstados)
+        options.text = estados[i];
+        comboEstados.append(options)    
+    }
 }
 
 // var opt0 = document.createElement("option");
