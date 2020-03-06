@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<script src="script.js"></script>
+<body>
+    <form id="formulario">
+        <fieldset id="setPessoal">
+            <legend>Dados Pessoais </legend>
+            <div class="content-label">
+                <label for="idNome">Nome: </label>
+                <input type="text" name="textName" id="idNome" maxlength="40" required>
+            </div>    
+            <div class="content-label">
+                <label for="textEmail">Email: </label>
+                <input type="text" name="textEmail" id="idEmail" 
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                    maxlength="50" required>
+            </div>
+            <div class="content-label">
+                <label for="idCPF">CPF: </label>
+                <input type="text" name="textCPF" id="idCPF" pattern="[0-9]{11}" required>
+            </div>
+            <div class="content-label">
+                <label for="idEnd">Endereço: </label>
+                <input type="text" name="textEnd" id="idEnd" maxlength="200" required>
+            </div>
+            <div class="content-label">
+                <label for="idCity">Cidade: </label>
+                <input type="text" name="textCity" id="idCity" maxlength="28" required>
+            </div> 
+            <div class="content-label">
+                <label for="idEstado">Estado: </label>   
+                <select id="idEstado" name="nameEstado" onclick="selectCombo()">
+                    <option value="0">Selecione seu estado</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
