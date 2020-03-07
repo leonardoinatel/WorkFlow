@@ -12,11 +12,10 @@ Crie um <fieldset> para os dados pessoais a seguir: Nome - Texto Limite de 40 ca
                                                     Cidade - Texto
                                                     Limite de 28 caracteres
                                                     Campo obrigatório
-
-    Estado - ComboBox
-    Todos os estados do Brasil
-    Utilize estruturas de repetição via JavaScript para gerar os <option>
-    Campo obrigatório
+                                                    Estado - ComboBox
+                                                    Todos os estados do Brasil
+                                                    Utilize estruturas de repetição via JavaScript para gerar os <option>
+                                                    Campo obrigatório
 
 
 Tipo - Radio Button

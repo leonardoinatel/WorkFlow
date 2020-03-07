@@ -34,9 +34,15 @@
             </div> 
             <div class="content-label">
                 <label for="idEstado">Estado: </label>   
-                <select id="idEstado" name="nameEstado" onclick="selectCombo()">
+                <select id="idEstado" name="nameEstado" onclick="selectCombo()" required>
                     <option value="0">Selecione seu estado</option>
                 </select>
+            </div>
+            <div class="content-label-radio">
+                <label for="radioCasa">Casa: </label>
+                <input type="radio" name="radioCasa" id="radioCasa" value="radio1" onclick="radioButton(this)" required><br>
+                <label for="radioApt">Apartamento: </label>
+                <input type="radio" name="radioApt" id="radioApt" value="radio2" onclick="radioButton(this)" required>
             </div>
         </fieldset>
     </form>
